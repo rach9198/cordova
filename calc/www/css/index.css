@@ -1,0 +1,72 @@
+body {
+    margin: 5% 0 0 0;
+    font-family: 'Itim';
+    background-image: url('/calc/www/img/mathbg1.png');
+    /* background-image: linear-gradient(rgba(255, 0, 0, 0.24), rgba(255, 255, 0, 0.158)); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(245, 245, 245, 0.884);
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    /* font-size: 25px; */
+    font-size: 2.5vw;
+    font-family:serif;
+    background-color: rgba(37, 148, 221, 0.692); 
+    border: 0.5px solid rgb(43, 42, 42) ;   
+    border-radius: 5px;
+    font-family: 'Itim';
+}
+            
+table {
+    width: 30%;
+    height: 100%;
+    font-family:serif;
+    table-layout: fixed;
+    margin: 1% 3% 5% auto;
+
+}
+
+td {
+    height: 70px;
+    font-size: 35px;
+    color: aliceblue;
+    font-family: serif;
+}
+
+/* tr {
+    margin: 2000px;
+} */
+
+
+.op {
+    font-size: 2.5vw;
+    background-color:rgba(23, 211, 79, 0.685);
+    font-family:serif;
+    margin: 0%;
+    font-family: 'Itim';
+}
+
+#display{
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    font-family: 'Itim';
+}
+
+#ac,#del {
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.4);
+    border: red;
+    font-size: 2vw;
+}
+/* 
+#del {
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.4);
+    border: red;
+    font-size: 2vw;
+} */
