@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(236, 223, 223, 0.62), rgba(236, 223, 223, 0.62)), 
+        url(/onlineMusicPlayer/www/img/note2.png);
+
+    background-position: 70% -10%;
+    /* background-repeat: ; */
+    /* color: black; */
+    /* background: transparent; */
+    /* font-family: 'Rouge Script'; */
+    font-family: 'Rogue Script';
+}
+
+h3 {
+    font-family: 'Rogue Script';
+}
+
+h1 {
+    font-family: 'Megrim';
+    font-size: 40px;
+    /* margin-top: 1%; */
+    color: black;
+    /* padding-top: 0.5%; */
+    justify-content: center;
+}
+
+
+
+#note {
+    margin-left: -7%;
+    margin-top: -3%;
+}
+
+#logo {
+    height: 70px;
+    width: auto;
+    padding: 0.75% 1% 0 1%;
+    /* padding */
+}
+
+.header {
+    display: flex;
+    /* background-color: rgba(39, 38, 38, 0.795); */
+    /* width: max-content; */
+    height: 90px;
+    margin: 0%;
+}
+
+.genre {
+    margin: 0% auto;
+}
+
+iframe {
+    /* display: flex;
+    flex-direction: row; */
+    width: 200px;
+    height: 250px;
+    padding: 1%;
+    border-radius: 10px;
+}
